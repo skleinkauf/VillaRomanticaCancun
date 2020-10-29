@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "546327533000",
+    "firebase_url": "https://villaromantica-325e8.firebaseio.com",
+    "project_id": "villaromantica-325e8",
+    "storage_bucket": "villaromantica-325e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546327533000:android:819efa7826b94ab6809cfd",
+        "android_client_info": {
+          "package_name": "com.example.villaromantica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546327533000-0l0vrpar3583br4h594pdc23m887e3au.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtAR6QbRA3F_s-5ndaiJ4FN2HCsXCDpHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546327533000-0l0vrpar3583br4h594pdc23m887e3au.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546327533000:android:1a625d5dc08365c5809cfd",
+        "android_client_info": {
+          "package_name": "com.example.villaromanticacancun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546327533000-0l0vrpar3583br4h594pdc23m887e3au.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtAR6QbRA3F_s-5ndaiJ4FN2HCsXCDpHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546327533000-0l0vrpar3583br4h594pdc23m887e3au.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

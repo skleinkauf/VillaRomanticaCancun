@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/menu_rooms"
+            android:title="Rooms"
+            android:icon="@drawable/ic_room"/>
+        <item
+            android:id="@+id/menu_gallery"
+            android:title="Gallery"
+            android:icon="@drawable/ic_gallery"/>
+        <item
+            android:id="@+id/menu_tours"
+            android:title="Tours"
+            android:icon="@drawable/ic_tour"/>
+        <item
+            android:id="@+id/menu_contact_us"
+            android:title="Contact Us"
+            android:icon="@drawable/ic_contact"/>
+        <item
+            android:id="@+id/menu_logout"
+            android:title="LogOut"
+            android:icon="@drawable/ic_logout"/>
+
+
+
+    </group>
+</menu>

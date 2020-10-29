@@ -1,0 +1,38 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="buttons">
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@drawable/buttonsradious</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shape">ring</item>
+    </style>
+
+    <style name="buttonPhoto">
+        <item name="android:background">@drawable/buttonphoto</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shape">ring</item>
+    </style>
+
+
+    <style name="sendMessage">
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/buttonsradious</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shape">ring</item>
+    </style>
+
+    <style name="recieveMessage">
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/receivemessage</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shape">ring</item>
+    </style>
+
+</resources>

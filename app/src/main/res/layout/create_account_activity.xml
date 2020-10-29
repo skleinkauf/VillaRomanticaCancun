@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editTextYourNameCreateAccount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="32dp"
+            android:ems="10"
+            android:hint="Your Ful Name:"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonPhotoCreateAccount" />
+
+        <EditText
+            android:id="@+id/editTextPhoneCreateAccount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:hint="Your Phone Number:"
+            android:inputType="phone"
+            app:layout_constraintEnd_toEndOf="@+id/editTextYourNameCreateAccount"
+            app:layout_constraintStart_toStartOf="@+id/editTextYourNameCreateAccount"
+            app:layout_constraintTop_toBottomOf="@+id/editTextYourNameCreateAccount" />
+
+        <EditText
+            android:id="@+id/editTextEmailCreateAccount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:hint="Your Email Address:"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="@+id/editTextPhoneCreateAccount"
+            app:layout_constraintStart_toStartOf="@+id/editTextPhoneCreateAccount"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPhoneCreateAccount" />
+
+        <EditText
+            android:id="@+id/editTextPasswordCreateAccount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:ems="10"
+            android:hint="Choose a Password:"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="@+id/editTextEmailCreateAccount"
+            app:layout_constraintStart_toStartOf="@+id/editTextEmailCreateAccount"
+            app:layout_constraintTop_toBottomOf="@+id/editTextEmailCreateAccount" />
+
+        <Button
+            android:id="@+id/buttonCreateAccountCreateAccount"
+            style="@style/buttons"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:text="Create Account"
+            app:layout_constraintEnd_toEndOf="@+id/editTextPasswordCreateAccount"
+            app:layout_constraintStart_toStartOf="@+id/editTextPasswordCreateAccount"
+            app:layout_constraintTop_toBottomOf="@+id/editTextPasswordCreateAccount" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:text="Already Have An Account?"
+            app:layout_constraintEnd_toEndOf="@+id/buttonCreateAccountCreateAccount"
+            app:layout_constraintStart_toStartOf="@+id/buttonCreateAccountCreateAccount"
+            app:layout_constraintTop_toBottomOf="@+id/buttonCreateAccountCreateAccount" />
+
+        <Button
+            android:id="@+id/buttonMakeLoginCreateAccount"
+            style="@style/buttons"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:layout_marginBottom="27dp"
+            android:text="Make Login"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/buttonCreateAccountCreateAccount"
+            app:layout_constraintStart_toStartOf="@+id/buttonCreateAccountCreateAccount"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="0dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logofrase" />
+
+        <Button
+            android:id="@+id/buttonPhotoCreateAccount"
+            style="@style/buttonPhoto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="27dp"
+            android:layout_marginEnd="32dp"
+            android:text="Photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/selectPhotoRounded"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:civ_border_width="4dp"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonPhotoCreateAccount"
+            app:layout_constraintEnd_toEndOf="@+id/buttonPhotoCreateAccount"
+            app:layout_constraintStart_toStartOf="@+id/buttonPhotoCreateAccount"
+            app:layout_constraintTop_toTopOf="@+id/buttonPhotoCreateAccount" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
